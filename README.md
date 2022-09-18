@@ -2,35 +2,34 @@
 
 This is a simple website designed using static mockup data for a startup or tech company looking to showcase what services they provide.  
 
-### Prerequisites
+## Requirements
+For development, you will need `node` and `npm` installed on your local machine.
 
-You will need to have the following installed on your computer to be able to run this project
+## Installation and Setup Instructions
+In terminal or command prompt,
 
+```bash
+git clone https://github.com/junior231/Tech-Website.git 
 ```
-NodeJS or Yarn, Code Editor.
+```bash
+cd PROJECT directory
 ```
+Use the package manager [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) to install dependencies.
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-Step 1
-
+```bash
+npm install 
 ```
-Clone the project or download the zipped folder from this repository.
-```
+or 
 
-Step 2
+```bash
+yarn add 
+```
+After installing the dependencies, to start server:
 
+```bash
+npm run start
 ```
-Open folder in code editor and install dependencies in terminal. eg npm install or yarn add.
-```
-
-Step 3
-
-```
-npm start to run project on local host.
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 ## Built With
 
 * [React JS](https://reactjs.org/)
@@ -40,7 +39,6 @@ npm start to run project on local host.
 
  - Make the content of the website dynamic 
  - Write Some Tests
- - Of course and anything or idea will be welcomed!!
 
 ## License
 
